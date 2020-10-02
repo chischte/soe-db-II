@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AboDB">
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="IsaDB">
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
         <ConnectionNode Name="DESKTOP-HHEUIUI\SQLEXPRESS:DESKTOP-HHEUIUI\michi">
-          <Created>2020-10-02T16:37:56.4461237+02:00</Created>
+          <Created>2020-10-02T16:40:27.2460164+02:00</Created>
           <Type>SQL</Type>
           <Server>DESKTOP-HHEUIUI\SQLEXPRESS</Server>
           <UserName />
           <Authentication>Windows Authentication</Authentication>
-          <InitialDB />
+          <InitialDB>master</InitialDB>
           <LoginTimeout>30</LoginTimeout>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
@@ -19,11 +19,23 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="create_tables.sql">
+        <FileNode Name="is-a_create.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-HHEUIUI\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-HHEUIUI\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>create_tables.sql</FullPath>
+          <FullPath>is-a_create.sql</FullPath>
+        </FileNode>
+        <FileNode Name="is-a_insert.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-HHEUIUI\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-HHEUIUI\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>is-a_insert.sql</FullPath>
+        </FileNode>
+        <FileNode Name="is-a_query.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-HHEUIUI\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-HHEUIUI\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>is-a_query.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
