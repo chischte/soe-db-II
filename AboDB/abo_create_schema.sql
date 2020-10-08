@@ -1,3 +1,9 @@
+#constraint (plz+ort) unique
+#constraint anredetext unique
+
+
+
+
 drop database aboadressen
 
 create database aboadressen;
