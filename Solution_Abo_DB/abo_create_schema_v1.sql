@@ -17,7 +17,7 @@ go;
 
 -- DB anwählen
 use Abo;
-go;
+go
 
 -- Tabelle Anrede erstellen
 create table Anrede
@@ -26,7 +26,7 @@ create table Anrede
 	AnredeText	varchar(20)				not null
 	CONSTRAINT PK_Anrede PRIMARY KEY (AnredeID) 
 );
-go;
+go
 
 -- Tabelle Ort erstellen
 create table Ort
@@ -36,7 +36,7 @@ create table Ort
 	Ortschaft	varchar(80)			not null
 	CONSTRAINT PK_Ort PRIMARY KEY (OrtID) 
 );
-go;
+go
 
 -- Tabelle AboArt erstellen
 create table AboArt
@@ -46,7 +46,7 @@ create table AboArt
 	Gebuehr		decimal(7,2)			not null
 	CONSTRAINT PK_AboArt PRIMARY KEY (AboArtID) 
 );
-go;
+go
 
 -- Tabelle Mitglied erstellen
 create table Mitglied
@@ -66,5 +66,5 @@ create table Mitglied
 	CONSTRAINT FK_Mitglied_AboArt FOREIGN KEY(AboArtID)
 		REFERENCES AboArt(AboArtID)
 );
-go;
+go
 
