@@ -7,6 +7,6 @@ FROM     dbo.Mitglied INNER JOIN
 
 SELECT   Nachname, Vorname, Bezeichnung, Ortschaft
 FROM     Mitglied JOIN
-         Ort ON Mitglied.OrtID = dbo.Ort.OrtID INNER JOIN
-         Anrede ON Mitglied.AnredeID = Anrede.AnredeID INNER JOIN
+         Ort ON Mitglied.OrtID = Ort.OrtID JOIN
+         Anrede ON Mitglied.AnredeID = Anrede.AnredeID JOIN
          AboArt ON Mitglied.AboArtID = AboArt.AboArtID
