@@ -13,10 +13,10 @@ If(db_id(N'Abo') IS NULL)
 begin
 	create database Abo;
 end
-go;
+go
 
 -- DB anwählen
-use Abo;
+use Abo
 go
 
 -- Tabelle Anrede erstellen
