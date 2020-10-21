@@ -17,7 +17,7 @@ create table Mitglied
     MitgliedID      int identity(1,1)   not null,
     AnredeID        int,
     OrtID           int                 not null,
-    AboID           int,
+    AboartID           int,
     Vorname         varchar(20)         not null,
     Nachname        varchar(20)         not null,
     Eintritt        date                not null
@@ -57,3 +57,23 @@ create table Anrede
 	constraint PK_Anrede primary key(AnredeID)
 );
 go
+
+
+alter table Mitglied
+	add constraint FK_AnredeID foreign key (AnredeID)
+		references Anrede (AnredeID) on delete cascade;
+go
+
+alter table Mitglied
+	add constraint FK_OrtID foreign key(OrtID)
+		references Ort (OrtID) on delete cascade;
+go
+
+alter table Mitglied
+	add constraint FK_AboartID foreign key(AboartID)
+		references Aboart (AboartID) on delete cascade;
+go
+
+
+
+
