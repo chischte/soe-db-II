@@ -1,4 +1,6 @@
 
+drop database Abo;
+
 if(db_id('abo') is null)
 begin
 create database Abo;
@@ -48,7 +50,9 @@ create table Ort
 	constraint PK_Ort primary key(OrtID)
 );
 go
-			
+	
+drop table Anrede 
+
 create table Anrede
 (
 	AnredeID	int identity(1,1)	not null,

@@ -23,4 +23,11 @@ select nachname, vorname
 	from mitglied	
 	where nachname = 'Pozzi';
 
+	select * from mitglied
+	for xml auto
+
+select * from mitglied
+	for json auto
+
+
 

@@ -61,11 +61,11 @@
           <AssociatedConnUserName />
           <FullPath>abo_insert_data_v2.sql</FullPath>
         </FileNode>
-        <FileNode Name="abo_transaktion_mw.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+        <FileNode Name="index_uebungen_mw.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-HHEUIUI\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-HHEUIUI\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>abo_transaktion_mw.sql</FullPath>
+          <FullPath>index_uebungen_mw.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
