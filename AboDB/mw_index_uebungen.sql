@@ -9,7 +9,7 @@ create index idx_mitglied_aboID
 alter index all on Mitglied rebuild;
 
 create index idx_ortort
-	on ort(Ortschaft);
+	on ort(Ortname);
 
 alter index all on ort rebuild;
 
@@ -28,6 +28,3 @@ select nachname, vorname
 
 select * from mitglied
 	for json auto
-
-
-

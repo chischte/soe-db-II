@@ -1,13 +1,3 @@
--- abo_constraints.sql
---
--- Autor		: Lukas Müller
--- Projekt		: Juventus
--- Version		: 1.0
--- 
--- Change log
--- 21/12/2019	LUK	Erstellt
--- 
-
 use Abo;
 
 -- Unique constraints
@@ -15,10 +5,10 @@ alter table Anrede
 	add constraint UQ_Anrede_AnredeText unique(AnredeText);
 
 alter table Ort
-	add constraint UQ_Ort_PlzOrt unique(plz,ortschaft);
+	add constraint UQ_OrtName_PlzOrt unique(plz,ortname);
 
 alter table AboArt
-	add constraint UQ_Aboart_Bezeichnung unique(bezeichnung);
+	add constraint UQ_Aboart_Bezeichnung unique(abobezeichnung);
 
 -- Check constraints
 alter table Ort
@@ -27,4 +17,4 @@ alter table Ort
 -- Default constraint
 alter table AboArt  
    ADD CONSTRAINT DF_AboArt_Gebuehr  
-   DEFAULT 0.0 FOR Gebuehr;  
+   DEFAULT 0.0 FOR AboGebuehr;  

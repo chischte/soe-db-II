@@ -3,9 +3,8 @@
     "",
     "\\AboDB",
     "\\bestellungen",
-    "\\IsaDB",
-    "\\Solution_Abo_DB"
+    "\\IsaDB"
   ],
-  "SelectedNode": "\\AboDB\\mw_insert_data.sql",
+  "SelectedNode": "\\AboDB\\mw_abo_create_scheme.sql",
   "PreviewInSolutionExplorer": false
 }

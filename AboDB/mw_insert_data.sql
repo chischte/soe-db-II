@@ -24,7 +24,7 @@ insert into Ort(OrtID, PLZ, OrtName)
 			(3, 8048, 'Zürich'),
 			(4, 3000, 'Bern'),
 			(5, 4000, 'Basel');
-go
+			go
 SET IDENTITY_INSERT Ort OFF;  
 
 -- Aboarten erfassen:
@@ -50,17 +50,40 @@ insert into Mitglied(	MitgliedID,
 						AnredeID,
 						OrtID,
 						AboartID,
-						Vorname,
 						Nachname,
+						Vorname,
 						Eintritt)
 
-			values(		33,
+			values	(	66,
+						2,
+						3,
+						3,
+						'Keller',
+						'Georg',
+						convert(date,'30.11.1996',104)),
+					(	33,
 						2,
 						1,
 						1,
 						'Balmelli',
 						'Marco',
-						convert(date, '01.01.1990',104))
+						convert(date, '01.01.1990',104)),
+					(	44,
+						1,
+						2,
+						3,
+						'Bürgin',
+						'Sandra',
+						convert(date, '01.05.1981',104)),
+					(	55,
+						2,
+						3,
+						2,
+						'Emmenegger',
+						'Reto',
+						convert(date, '01.10.1994',104))
+
 
 SET IDENTITY_INSERT Mitglied OFF
 go
+
