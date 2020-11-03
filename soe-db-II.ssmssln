@@ -7,6 +7,8 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "AboDB", "AboDB\AboDB.ssmssq
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "IsaDB", "IsaDB\IsaDB.ssmssqlproj", "{577DFCE2-D557-4AA9-B36B-E84CBC9C8B9A}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Tontraegerverwaltung", "Tontraegerverwaltung\Tontraegerverwaltung.ssmssqlproj", "{4FBB5948-986C-4705-BC7F-508DE396312D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -14,7 +16,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{28623D4E-0910-4196-9355-E35081912252}.Default|Default.ActiveCfg = Default
 		{577DFCE2-D557-4AA9-B36B-E84CBC9C8B9A}.Default|Default.ActiveCfg = Default
-		{2E9528EC-01BD-4FB8-8BAF-BEC0EDF6B1CC}.Default|Default.ActiveCfg = Default
+		{0944A73B-2D65-43B5-91F6-B6EDD27675C2}.Default|Default.ActiveCfg = Default
+		{4FBB5948-986C-4705-BC7F-508DE396312D}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
