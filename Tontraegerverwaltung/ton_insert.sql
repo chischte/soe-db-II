@@ -17,6 +17,29 @@ go
 set identity_insert Interpret off;
 go
 
+-- MusikStil
+set identity_insert Musikstil on;
+go
+insert into MusikStil
+(
+	MusikStilID,
+	MusikStil
+)
+values
+/*
+(
+	1,
+	'pop'
+),
+*/
+(
+	2,
+	'accappella'
+);
+go
+set identity_insert MusikStil off;
+go
+
 
 
 /*
