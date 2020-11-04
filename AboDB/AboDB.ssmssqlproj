@@ -25,11 +25,11 @@
           <AssociatedConnUserName />
           <FullPath>mw_abo_create_scheme.sql</FullPath>
         </FileNode>
-        <FileNode Name="mw_create_constraints.sql">
+        <FileNode Name="mw_constraints.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-HHEUIUI\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-HHEUIUI\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>mw_create_constraints.sql</FullPath>
+          <FullPath>mw_constraints.sql</FullPath>
         </FileNode>
         <FileNode Name="mw_index_uebungen.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-HHEUIUI\SQLEXPRESS:True</AssociatedConnectionMoniker>
