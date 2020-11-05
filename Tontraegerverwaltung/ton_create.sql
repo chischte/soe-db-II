@@ -92,16 +92,10 @@ alter table Titel
 -- Table Album
 alter table Album
 	add constraint FK_MusikStilID foreign key (MusikStilID)
-		references MusikStil (MusikStilID) on delete set null;
-go
-
-alter table Album
-	add constraint FK_SpeicherMediumID foreign key (SpeicherMediumID)
-		references SpeicherMedium (SpeicherMediumID) on delete cascade;
-go
-
-alter table Album
-	add constraint FK_LagerortID foreign key (LagerortID)
+		references MusikStil (MusikStilID) on delete set null,
+	constraint FK_SpeicherMediumID foreign key (SpeicherMediumID)
+		references SpeicherMedium (SpeicherMediumID) on delete cascade,
+	constraint FK_LagerortID foreign key (LagerortID)
 		references Lagerort (LagerortID) on delete cascade;
 go
 

@@ -19,29 +19,23 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="test_constraints.sql">
+        <FileNode Name="wettstein_michael_pap_CONSTRAINTS.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-HHEUIUI\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-HHEUIUI\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>test_constraints.sql</FullPath>
+          <FullPath>wettstein_michael_pap_CONSTRAINTS.sql</FullPath>
         </FileNode>
-        <FileNode Name="test_create.sql">
+        <FileNode Name="wettstein_michael_pap_INSERT.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-HHEUIUI\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-HHEUIUI\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>test_create.sql</FullPath>
+          <FullPath>wettstein_michael_pap_INSERT.sql</FullPath>
         </FileNode>
-        <FileNode Name="test_insert.sql">
+        <FileNode Name="wettstein_michael_pap_SCHEMA.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-HHEUIUI\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-HHEUIUI\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>test_insert.sql</FullPath>
-        </FileNode>
-        <FileNode Name="test_queries.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-HHEUIUI\SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-HHEUIUI\SQLEXPRESS</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>test_queries.sql</FullPath>
+          <FullPath>wettstein_michael_pap_SCHEMA.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
