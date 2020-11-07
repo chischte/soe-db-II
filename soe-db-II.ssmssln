@@ -11,6 +11,8 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Tontraegerverwaltung", "Ton
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "TestDB", "TestDB\TestDB.ssmssqlproj", "{F49CBE36-7CEE-4D5C-AA69-428A1239FB4A}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Soe_III_Personenverwaltung", "Soe_III_Personenverwaltung\Soe_III_Personenverwaltung.ssmssqlproj", "{77E71369-98FC-4964-841B-3EDD8E308A1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -19,8 +21,9 @@ Global
 		{28623D4E-0910-4196-9355-E35081912252}.Default|Default.ActiveCfg = Default
 		{577DFCE2-D557-4AA9-B36B-E84CBC9C8B9A}.Default|Default.ActiveCfg = Default
 		{4FBB5948-986C-4705-BC7F-508DE396312D}.Default|Default.ActiveCfg = Default
-		{C6FF747F-5F27-4295-8C88-5C86A5C0595A}.Default|Default.ActiveCfg = Default
 		{F49CBE36-7CEE-4D5C-AA69-428A1239FB4A}.Default|Default.ActiveCfg = Default
+		{35DBCBE2-1CEC-4433-9D9C-CA4526EE1B30}.Default|Default.ActiveCfg = Default
+		{77E71369-98FC-4964-841B-3EDD8E308A1E}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
