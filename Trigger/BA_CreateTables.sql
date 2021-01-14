@@ -4,6 +4,10 @@
 -- Tabellen erstellen
 -- -------------------------------------------------------
 
+CREATE DATABASE BuchAutorDB
+GO
+
+
 -- Datenbank wählen
 USE [BuchAutorDB]
 GO

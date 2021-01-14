@@ -13,6 +13,8 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "TestDB", "TestDB\TestDB.ssm
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Soe_III_Personenverwaltung", "Soe_III_Personenverwaltung\Soe_III_Personenverwaltung.ssmssqlproj", "{77E71369-98FC-4964-841B-3EDD8E308A1E}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Trigger", "Trigger\Trigger.ssmssqlproj", "{719B97DB-A85B-4CCC-AB77-D1912B48FC14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -22,8 +24,9 @@ Global
 		{577DFCE2-D557-4AA9-B36B-E84CBC9C8B9A}.Default|Default.ActiveCfg = Default
 		{4FBB5948-986C-4705-BC7F-508DE396312D}.Default|Default.ActiveCfg = Default
 		{F49CBE36-7CEE-4D5C-AA69-428A1239FB4A}.Default|Default.ActiveCfg = Default
-		{35DBCBE2-1CEC-4433-9D9C-CA4526EE1B30}.Default|Default.ActiveCfg = Default
 		{77E71369-98FC-4964-841B-3EDD8E308A1E}.Default|Default.ActiveCfg = Default
+		{719B97DB-A85B-4CCC-AB77-D1912B48FC14}.Default|Default.ActiveCfg = Default
+		{ACFA731D-BA87-4D57-868D-96899789D36C}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

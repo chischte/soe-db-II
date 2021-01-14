@@ -53,14 +53,14 @@ end;
 -- -------------------------------------------------------
 
 -- drop if exists
-if (object_id('buch.trigTblAutorBuchInsert', 'TR') is not null)
+if (object_id('buch.trigTblAutorBuchInstead', 'TR') is not null)
 begin
-	drop trigger buch.trigTblAutorBuchInsert;
+	drop trigger buch.trigTblAutorBuchInstead;
 end;
 go
 
 -- Instead of Trigger anlegen
-create trigger trigTblAutorBuchInsteadTrigger
+create trigger trigTblAutorBuchInstead
 	on buch.tblAutorBuch
 	instead of insert
 AS
